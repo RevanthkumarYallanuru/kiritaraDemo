@@ -33,9 +33,10 @@ const App = () => (
               <Route path="/memberships" element={<Memberships />} />
               <Route path="/progress" element={<Progress />} />
               <Route path="/virtual-tour" element={<VirtualTour />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="*" element={<NotFound />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/admin-panel/*" element={<AdminPanel />} />
+        <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
           <Footer />
