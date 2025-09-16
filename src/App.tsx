@@ -13,6 +13,7 @@ import Progress from "./pages/Progress";
 import VirtualTour from "./pages/VirtualTour";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
+import AdminPanel from "./pages/AdminPanel";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
